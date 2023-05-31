@@ -1,0 +1,215 @@
+h1 {
+    color: rgb(87, 47, 91);
+    
+    background-color: rgb(234, 243, 238);
+    text-align: center;
+    -webkit-text-stroke: 0.3px white;
+    font-size: 50px;
+    }
+
+    h2{
+    font-size: 30px;
+    }
+    section {
+    display: block;
+    }
+
+    ul { padding-left: 1.2em;
+        list-style: inside;
+       
+    }
+    
+    .maingroup {
+  display: flex;
+    }
+
+    .container {
+     flex: 1;
+        bottom: 0px;
+        background-color: rgb(255, 255, 255); 
+        border: solid black 0.5px;
+        margin-left: 20px;
+        text-align: center;
+   
+    }
+        .container2 {
+        flex: 1;
+         background-color: rgb(255, 255, 255);
+         bottom: 0px;
+         border: solid black 0.5px;
+         margin-left: 20px;
+         text-align: center;
+
+        }
+    
+    .colourboxcontainer {
+    background-color: RGB(255, 255, 255);
+    width: 150px;
+    height: 135px;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    border: 0.5px solid;
+    }
+    
+    .bottom {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 150PX;
+    font-weight: bold;
+    font-family: 'Maxs Font';
+    }
+    
+    .colourbox {
+    background-color: RGB(144, 180, 176);
+    width: 150px;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+    border-bottom: 0.5px solid;
+    }
+    .colourbox1 {
+        background-color: rgb(177, 126, 182);
+        width: 150px;
+        height: 100px;
+        position: relative;
+        margin: 0 auto;
+        border-bottom: 0.5px solid;
+    }
+    .colourbox2 {
+        background-color: rgb(226, 219, 118);
+        width: 150px;
+        height: 100px;
+        position: relative;
+        margin: 0 auto;
+        border-bottom: 0.5px solid;
+    }
+    .colourbox3 {
+        background-color: RGB(198,158,156);
+        width: 150px;
+        height: 100px;
+        position: relative;
+        margin: 0 auto;
+        border-bottom: 0.5px solid;
+    }
+
+    .colourbox4 {
+        background-color: RGB(255,255,255);
+        width: 150px;
+        height: 100px;
+        position: relative;
+        margin: 0 auto;
+        border-bottom: 0.5px solid;
+    }
+    .colourbox5 {
+        background-color: RGB(232,232,232);
+        width: 150px;
+        height: 100px;
+        position: relative;
+        margin: 0 auto;
+        border-bottom: 0.5px solid;
+    }
+
+    .fontcontainer {
+        width: 150px;
+        height: 135px;
+        position: relative;
+        display: inline-block;
+        margin: 10px;
+        border: 0.5px solid;
+    }
+
+    .fontlabelPFDunderline {
+    font-family: 'Maxs Font';
+    font-size: 20px;
+    text-decoration: underline;
+    }
+    .fontlabelPFDbold {
+    font-family: 'Maxs Font';
+    font-weight: bold;
+    }
+    .fontlabelPFDitalic {
+    font-family: 'Maxs Font';
+    font-style: italic;
+    }
+    .fontlabelPFD {
+    font-family: 'Maxs Font';
+    }
+
+    .fontlabelWSunderline {
+        font-family: 'Maxs Font2';
+        font-size: 20px;
+        text-decoration: underline;
+        }
+        .fontlabelWSbold {
+        font-family: 'Maxs Font2';
+        font-weight: bold;
+        }
+        .fontlabelWSitalic {
+        font-family: 'Maxs Font2';
+        font-style: italic;
+        }
+        .fontlabelWS {
+        font-family: 'Maxs Font2';
+        }
+        .fontlabelRWunderline {
+        font-family: 'Maxs Font3';
+        font-size: 20px;
+        text-decoration: underline;
+        }
+        .fontlabelRWbold {
+        font-family: 'Maxs Font3';
+        font-weight: bold;
+        }
+        .fontlabelRWitalic {
+            font-family: 'Maxs Font3';
+            font-style: italic;
+            }
+        .fontlabelRW {
+        font-family: 'Maxs Font2';
+         }
+
+
+
+.textstyles {
+display:flex;
+align-items: center;
+justify-content: center;
+width:1000px;
+height: 700px;
+}
+.mainstylegroup {
+display:flex;
+}
+.containerstyle {
+    flex: 1;
+       bottom: 0px;
+       background-color: rgb(255, 255, 255); 
+       font-family: 'Max Font2';
+       border: solid black 0.5px;
+       margin-left: 20px;
+       text-align: center;
+   }
+
+p {
+font-family: 'Max Font2';
+}
+
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+    
+    @font-face {
+    font-family: 'Maxs Font';
+    src: url('Fonts/PlayfairDisplay-VariableFont_wght.ttf');
+    }
+    @font-face {
+        font-family: 'Maxs Font2';
+        src: url('Fonts/WorkSans-VariableFont_wght.ttf');
+    }
+    @font-face {
+    font-family: 'Maxs Font3';
+    src: url('Fonts/Raleway-Italic-VariableFont_wght.ttf')
+    }

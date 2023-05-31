@@ -1,0 +1,318 @@
+body {
+
+  font-family: Helvetica;
+  
+  font-size: 22px;
+  
+  color: seashell;
+  
+  background-color: black;
+  
+  opacity: 0.9;
+  
+  }
+  
+   
+  
+  header {
+  
+  width:100%;
+  
+  margin-right: 20px;
+  
+  }
+  
+   
+  
+  header a {
+  
+  text-decoration: underline;
+  
+  float: right;
+  
+  margin-right: 20px;
+  
+  }
+  
+   
+  
+  .logo {
+  
+  height:50px;
+  
+  float: left;
+  
+  margin-left: 10px;
+  
+  }
+  
+   
+  
+  .headercontainer {
+  
+      border-bottom: 1px solid white;
+  
+      overflow: hidden;
+  
+      }
+  
+   
+  
+      .mission-container {
+  
+        background-image: url("./img-mission-background.jpg");
+  
+        background-repeat: no-repeat;
+  
+        background-position: center;
+  
+        height: 700px;
+  
+        max-width: 1200px;
+  
+        margin: auto;
+  
+        margin-top: 40px;
+  
+        display: flex;
+  
+        justify-content: center;
+  
+    }
+  
+   
+  
+    .text-over {
+  
+        margin: auto;
+  
+        width: 100%;
+  
+        background-color: black;
+  
+        text-align: center;
+  
+    }
+  
+    .missionh2 {
+  
+    font-size: 24px;
+  
+    margin-top:10px;
+  
+    margin-bottom: 10px;
+  
+    }
+  
+    .missionh4 {
+  
+    font-size: 20px;
+  
+    margin-top:10px;
+  
+    margin-bottom: 10px;
+  
+    }
+  
+   
+  
+    .tomh2 {
+  
+    text-align: center;
+  
+    }
+  
+   
+  
+    .tomh4 {
+  
+    text-align: center;
+  
+    }
+  
+   
+  
+    .tomcontainer {
+  
+    display: flex;
+  
+    flex-wrap: wrap;
+  
+    width: 1000px;
+  
+    margin: auto;
+  
+    justify-content: center;
+  
+   
+  
+    }
+  
+   
+  
+  .card {
+  
+  height: 200px;
+  
+  width: 300px;
+  
+  margin-left: 20px;
+  
+  margin-bottom: 20px;
+  
+  display:flex;
+  
+  }
+  
+   
+  
+  .tomcontainer p {
+  
+    text-align: center;
+  
+    margin-bottom: 30px;
+  
+  }
+  
+  
+  
+  
+  .locationcontainer {
+  
+    background-image: url("./img-locations-background.jpg");
+  
+    background-repeat: no-repeat;
+  
+    background-position: center;
+  
+    height: 500px;
+  
+    max-width: 1200px;
+  
+    margin: auto;
+  
+    display: flex;
+  
+    align-items: center;
+  
+   
+  
+    justify-content: center;
+  
+    position: relative;
+  
+  }
+  
+  
+  
+  
+  
+  .locationtext {
+  
+    display: flex;
+  
+    position: absolute;
+  
+    text-align: center;
+  
+    flex-wrap: nowrap;
+  
+    z-index: 1;
+  
+    top: 10px;
+  
+  }
+  
+   
+  
+  .downtown {
+  
+    display: flex;
+  
+    background-color: black;
+  
+    align-content: center;
+  
+    align-items: center;
+  
+    flex-flow: column;
+  
+    margin: 10px 10px;
+  
+    width: 300px;
+  
+  background-color: black;
+  
+  }
+  
+   
+  
+  .eastbayside {
+  
+    display: flex;
+  
+    background-color: black;
+  
+    align-content: center;
+  
+    align-items: center;
+  
+    flex-flow: column;
+  
+    margin: 15px 20px;
+  
+    width: 300px;
+  
+  background-color: black;
+  
+  }
+  
+   
+  
+  .oakdale {
+  
+    display: flex;
+  
+    background-color: black;
+  
+    align-content: center;
+  
+    align-items: center;
+  
+    flex-flow: column;
+  
+    margin: 15px 20px;
+  
+    width: 300px;
+  
+  background-color: black;
+  
+  }
+  
+   
+  
+  .oakdale p h2 {
+  
+  margin-top: 10px;
+  
+  margin-bottom: 10px;
+  
+  }
+  
+   
+  
+  .contact {
+  
+  text-align: center;
+  
+  }
+  
+   
+  
+  .copyright {
+  
+  text-align: left;
+  
+  margin-left: 20px;
+  
+  }

@@ -1,0 +1,53 @@
+h1 {
+color: rgb(129, 14, 14);
+text-align: center;
+font-weight: bold;
+
+}
+
+table,thead, td, tr, th {
+    border-collapse: collapse;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: center;
+    border-spacing: 2px;
+    font-variant: normal;
+    border: 2px solid black;
+    position: relative;
+
+}
+
+th {
+font-weight: bold;
+background-color: rgb(217, 233, 201);
+font-size: large;
+padding: 10px;
+}
+table {
+width: 700px;
+margin:auto;
+border: 3px solid black;
+padding: 30px;
+}
+#table {
+ padding: 12px;
+ font-size: 25px;
+ font-weight: bold;  
+ background-color: chartreuse; 
+}
+td {
+padding: 9px;
+}
+
+.third-column {
+    text-align: left;
+}
+
+.tag {
+background-color: rgb(224, 234, 213);
+}
